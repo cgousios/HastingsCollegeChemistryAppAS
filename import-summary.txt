@@ -1,0 +1,130 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\artifacts\
+* .idea\artifacts\artifacttest.xml
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\dictionaries\
+* .idea\dictionaries\Christopher.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\uiDesigner.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* HastingsCollegeChemistry.apk
+* HastingsCollegeChemistry.iml
+* ant.properties
+* build.xml
+* out\
+* out\artifacts\
+* out\artifacts\artifacttest\
+* out\artifacts\artifacttest\artifacttest.apk
+* out\production\
+* out\production\HastingsCollegeChemistry\
+* out\production\HastingsCollegeChemistry\HastingsCollegeChemistry.apk
+* out\production\HastingsCollegeChemistry\HastingsCollegeChemistry.unaligned.apk
+* out\production\HastingsCollegeChemistry\edu\
+* out\production\HastingsCollegeChemistry\edu\hastings\
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\BioChemFunctions\
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\BioChemFunctions\HendersonHasselbalch$1.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\BioChemFunctions\HendersonHasselbalch.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\BuildConfig.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\Converters\
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\Converters\Converter_Pressure$1.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\Converters\Converter_Pressure.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\Converters\Converter_Temperature$1.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\Converters\Converter_Temperature.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\Converters\Converter_Volume$1.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\Converters\Converter_Volume.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\Acids$1.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\Acids.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\Bases$1.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\Bases.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\Density$1.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\Density.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\DilutionOfSolution$1.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\DilutionOfSolution.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\GasLaws\
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\GasLaws\Avogadros_Law$1.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\GasLaws\Avogadros_Law.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\GasLaws\Boyles_Law$1.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\GasLaws\Boyles_Law.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\GasLaws\Charles_Law$1.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\GasLaws\Charles_Law.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\GasLaws\Combined_Gas_Law$1.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\GasLaws\Combined_Gas_Law.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\GasLaws\GasLawsMenuList.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\GasLaws\Guy_Lussacs_Law$1.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\GasLaws\Guy_Lussacs_Law.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\Ideal_Gas$1.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\Ideal_Gas.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\Molarity$1.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\Molarity.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\Particles$1.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\Particles.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\PercentYield$1.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\PercentYield.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\Stoichiometry$1.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\Stoichiometry.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\pH_Scale$1.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\pH_Scale$2.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\GenChemFunctions\pH_Scale.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\Menus\
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\Menus\BioChemMenuList.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\Menus\ConverterMenuList.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\Menus\GenChemMenuList.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\Menus\MainMenuList.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\Menus\OrganicChemMenuList.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\MyActivity$1.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\MyActivity.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\OrganicChemFunctions\
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\OrganicChemFunctions\SpecificRotation$1.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\OrganicChemFunctions\SpecificRotation.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\R$array.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\R$attr.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\R$drawable.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\R$id.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\R$layout.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\R$string.class
+* out\production\HastingsCollegeChemistry\edu\hastings\HastingsCollegeChemistry\R.class
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

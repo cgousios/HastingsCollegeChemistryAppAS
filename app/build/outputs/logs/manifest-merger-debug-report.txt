@@ -1,0 +1,362 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:11
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:11
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:11
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:7:15
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+application
+ADDED from AndroidManifest.xml:8:5
+	android:label
+		ADDED from AndroidManifest.xml:9:13
+	android:icon
+		ADDED from AndroidManifest.xml:10:13
+activity#edu.hastings.HastingsCollegeChemistry.MyActivity
+ADDED from AndroidManifest.xml:12:9
+	android:label
+		ADDED from AndroidManifest.xml:14:17
+	android:name
+		ADDED from AndroidManifest.xml:13:17
+intent-filter#android.intent.action.SPLASH+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:15:13
+action#android.intent.action.SPLASH
+ADDED from AndroidManifest.xml:16:17
+	android:name
+		ADDED from AndroidManifest.xml:16:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:17:17
+	android:name
+		ADDED from AndroidManifest.xml:17:27
+activity#edu.hastings.HastingsCollegeChemistry.Menus.MainMenuList
+ADDED from AndroidManifest.xml:22:9
+	android:label
+		ADDED from AndroidManifest.xml:23:19
+	android:name
+		ADDED from AndroidManifest.xml:22:19
+intent-filter#android.intent.category.DEFAULT+edu.hastings.HastingsCollegeChemistry.MAINMENULIST
+ADDED from AndroidManifest.xml:24:13
+action#edu.hastings.HastingsCollegeChemistry.MAINMENULIST
+ADDED from AndroidManifest.xml:25:17
+	android:name
+		ADDED from AndroidManifest.xml:25:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:26:17
+	android:name
+		ADDED from AndroidManifest.xml:26:27
+activity#edu.hastings.HastingsCollegeChemistry.Menus.GenChemMenuList
+ADDED from AndroidManifest.xml:31:9
+	android:label
+		ADDED from AndroidManifest.xml:32:19
+	android:name
+		ADDED from AndroidManifest.xml:31:19
+intent-filter#android.intent.category.DEFAULT+edu.hastings.HastingsCollegeChemistry.GENCHEMMENULIST
+ADDED from AndroidManifest.xml:33:13
+action#edu.hastings.HastingsCollegeChemistry.GENCHEMMENULIST
+ADDED from AndroidManifest.xml:34:17
+	android:name
+		ADDED from AndroidManifest.xml:34:25
+activity#edu.hastings.HastingsCollegeChemistry.GenChemFunctions.Stoichiometry
+ADDED from AndroidManifest.xml:40:9
+	android:label
+		ADDED from AndroidManifest.xml:41:19
+	android:name
+		ADDED from AndroidManifest.xml:40:19
+intent-filter#android.intent.category.DEFAULT+edu.hastings.HastingsCollegeChemistry.STOICHIOMETRY
+ADDED from AndroidManifest.xml:42:13
+action#edu.hastings.HastingsCollegeChemistry.STOICHIOMETRY
+ADDED from AndroidManifest.xml:43:17
+	android:name
+		ADDED from AndroidManifest.xml:43:25
+activity#edu.hastings.HastingsCollegeChemistry.GenChemFunctions.Density
+ADDED from AndroidManifest.xml:49:9
+	android:label
+		ADDED from AndroidManifest.xml:50:19
+	android:name
+		ADDED from AndroidManifest.xml:49:19
+intent-filter#android.intent.category.DEFAULT+edu.hastings.HastingsCollegeChemistry.DENSITY
+ADDED from AndroidManifest.xml:51:13
+action#edu.hastings.HastingsCollegeChemistry.DENSITY
+ADDED from AndroidManifest.xml:52:17
+	android:name
+		ADDED from AndroidManifest.xml:52:25
+activity#edu.hastings.HastingsCollegeChemistry.Menus.OrganicChemMenuList
+ADDED from AndroidManifest.xml:58:9
+	android:label
+		ADDED from AndroidManifest.xml:59:19
+	android:name
+		ADDED from AndroidManifest.xml:58:19
+intent-filter#android.intent.category.DEFAULT+edu.hastings.HastingsCollegeChemistry.ORGANICCHEMMENULIST
+ADDED from AndroidManifest.xml:60:13
+action#edu.hastings.HastingsCollegeChemistry.ORGANICCHEMMENULIST
+ADDED from AndroidManifest.xml:61:17
+	android:name
+		ADDED from AndroidManifest.xml:61:25
+activity#edu.hastings.HastingsCollegeChemistry.OrganicChemFunctions.SpecificRotation
+ADDED from AndroidManifest.xml:67:9
+	android:label
+		ADDED from AndroidManifest.xml:68:19
+	android:name
+		ADDED from AndroidManifest.xml:67:19
+intent-filter#android.intent.category.DEFAULT+edu.hastings.HastingsCollegeChemistry.SPECIFICROTATION
+ADDED from AndroidManifest.xml:69:13
+action#edu.hastings.HastingsCollegeChemistry.SPECIFICROTATION
+ADDED from AndroidManifest.xml:70:17
+	android:name
+		ADDED from AndroidManifest.xml:70:25
+activity#edu.hastings.HastingsCollegeChemistry.Menus.BioChemMenuList
+ADDED from AndroidManifest.xml:76:9
+	android:label
+		ADDED from AndroidManifest.xml:77:19
+	android:name
+		ADDED from AndroidManifest.xml:76:19
+intent-filter#android.intent.category.DEFAULT+edu.hastings.HastingsCollegeChemistry.BIOCHEMMENULIST
+ADDED from AndroidManifest.xml:78:13
+action#edu.hastings.HastingsCollegeChemistry.BIOCHEMMENULIST
+ADDED from AndroidManifest.xml:79:17
+	android:name
+		ADDED from AndroidManifest.xml:79:25
+activity#edu.hastings.HastingsCollegeChemistry.BioChemFunctions.HendersonHasselbalch
+ADDED from AndroidManifest.xml:85:9
+	android:label
+		ADDED from AndroidManifest.xml:86:19
+	android:name
+		ADDED from AndroidManifest.xml:85:19
+intent-filter#android.intent.category.DEFAULT+edu.hastings.HastingsCollegeChemistry.HENDERSONHASSELBALCH
+ADDED from AndroidManifest.xml:87:13
+action#edu.hastings.HastingsCollegeChemistry.HENDERSONHASSELBALCH
+ADDED from AndroidManifest.xml:88:17
+	android:name
+		ADDED from AndroidManifest.xml:88:25
+activity#edu.hastings.HastingsCollegeChemistry.GenChemFunctions.DilutionOfSolution
+ADDED from AndroidManifest.xml:94:9
+	android:label
+		ADDED from AndroidManifest.xml:95:19
+	android:name
+		ADDED from AndroidManifest.xml:94:19
+intent-filter#android.intent.category.DEFAULT+edu.hastings.HastingsCollegeChemistry.DILUTIONOFSOLUTION
+ADDED from AndroidManifest.xml:96:13
+action#edu.hastings.HastingsCollegeChemistry.DILUTIONOFSOLUTION
+ADDED from AndroidManifest.xml:97:17
+	android:name
+		ADDED from AndroidManifest.xml:97:25
+activity#edu.hastings.HastingsCollegeChemistry.Menus.ConverterMenuList
+ADDED from AndroidManifest.xml:103:9
+	android:label
+		ADDED from AndroidManifest.xml:104:19
+	android:name
+		ADDED from AndroidManifest.xml:103:19
+intent-filter#android.intent.category.DEFAULT+edu.hastings.HastingsCollegeChemistry.CONVERTERMENULIST
+ADDED from AndroidManifest.xml:105:13
+action#edu.hastings.HastingsCollegeChemistry.CONVERTERMENULIST
+ADDED from AndroidManifest.xml:106:17
+	android:name
+		ADDED from AndroidManifest.xml:106:25
+activity#edu.hastings.HastingsCollegeChemistry.Converters.Converter_Volume
+ADDED from AndroidManifest.xml:112:9
+	android:label
+		ADDED from AndroidManifest.xml:113:19
+	android:name
+		ADDED from AndroidManifest.xml:112:19
+intent-filter#android.intent.category.DEFAULT+edu.hastings.HastingsCollegeChemistry.CONVERTER_VOLUME
+ADDED from AndroidManifest.xml:114:13
+action#edu.hastings.HastingsCollegeChemistry.CONVERTER_VOLUME
+ADDED from AndroidManifest.xml:115:17
+	android:name
+		ADDED from AndroidManifest.xml:115:25
+activity#edu.hastings.HastingsCollegeChemistry.Converters.Converter_Temperature
+ADDED from AndroidManifest.xml:121:9
+	android:label
+		ADDED from AndroidManifest.xml:122:19
+	android:name
+		ADDED from AndroidManifest.xml:121:19
+intent-filter#android.intent.category.DEFAULT+edu.hastings.HastingsCollegeChemistry.CONVERTER_TEMPERATURE
+ADDED from AndroidManifest.xml:123:13
+action#edu.hastings.HastingsCollegeChemistry.CONVERTER_TEMPERATURE
+ADDED from AndroidManifest.xml:124:17
+	android:name
+		ADDED from AndroidManifest.xml:124:25
+activity#edu.hastings.HastingsCollegeChemistry.GenChemFunctions.Molarity
+ADDED from AndroidManifest.xml:130:9
+	android:label
+		ADDED from AndroidManifest.xml:131:19
+	android:name
+		ADDED from AndroidManifest.xml:130:19
+intent-filter#android.intent.category.DEFAULT+edu.hastings.HastingsCollegeChemistry.MOLARITY
+ADDED from AndroidManifest.xml:132:13
+action#edu.hastings.HastingsCollegeChemistry.MOLARITY
+ADDED from AndroidManifest.xml:133:17
+	android:name
+		ADDED from AndroidManifest.xml:133:25
+activity#edu.hastings.HastingsCollegeChemistry.GenChemFunctions.Ideal_Gas
+ADDED from AndroidManifest.xml:139:9
+	android:label
+		ADDED from AndroidManifest.xml:140:19
+	android:name
+		ADDED from AndroidManifest.xml:139:19
+intent-filter#android.intent.category.DEFAULT+edu.hastings.HastingsCollegeChemistry.IDEAL_GAS
+ADDED from AndroidManifest.xml:141:13
+action#edu.hastings.HastingsCollegeChemistry.IDEAL_GAS
+ADDED from AndroidManifest.xml:142:17
+	android:name
+		ADDED from AndroidManifest.xml:142:25
+activity#edu.hastings.HastingsCollegeChemistry.GenChemFunctions.pH_Scale
+ADDED from AndroidManifest.xml:148:9
+	android:label
+		ADDED from AndroidManifest.xml:149:19
+	android:name
+		ADDED from AndroidManifest.xml:148:19
+intent-filter#android.intent.category.DEFAULT+edu.hastings.HastingsCollegeChemistry.PH_SCALRE
+ADDED from AndroidManifest.xml:150:13
+action#edu.hastings.HastingsCollegeChemistry.PH_SCALRE
+ADDED from AndroidManifest.xml:151:17
+	android:name
+		ADDED from AndroidManifest.xml:151:25
+activity#edu.hastings.HastingsCollegeChemistry.GenChemFunctions.GasLaws.GasLawsMenuList
+ADDED from AndroidManifest.xml:157:9
+	android:label
+		ADDED from AndroidManifest.xml:158:19
+	android:name
+		ADDED from AndroidManifest.xml:157:19
+intent-filter#android.intent.category.DEFAULT+edu.hastings.HastingsCollegeChemistry.GASLAWS.GASLAWSMENULIST
+ADDED from AndroidManifest.xml:159:13
+action#edu.hastings.HastingsCollegeChemistry.GASLAWS.GASLAWSMENULIST
+ADDED from AndroidManifest.xml:160:17
+	android:name
+		ADDED from AndroidManifest.xml:160:25
+activity#edu.hastings.HastingsCollegeChemistry.GenChemFunctions.GasLaws.Boyles_Law
+ADDED from AndroidManifest.xml:166:9
+	android:label
+		ADDED from AndroidManifest.xml:167:19
+	android:name
+		ADDED from AndroidManifest.xml:166:19
+intent-filter#android.intent.category.DEFAULT+edu.hastings.HastingsCollegeChemistry.GASLAWS.BOYLES_LAW
+ADDED from AndroidManifest.xml:168:13
+action#edu.hastings.HastingsCollegeChemistry.GASLAWS.BOYLES_LAW
+ADDED from AndroidManifest.xml:169:17
+	android:name
+		ADDED from AndroidManifest.xml:169:25
+activity#edu.hastings.HastingsCollegeChemistry.GenChemFunctions.GasLaws.Charles_Law
+ADDED from AndroidManifest.xml:175:9
+	android:label
+		ADDED from AndroidManifest.xml:176:19
+	android:name
+		ADDED from AndroidManifest.xml:175:19
+intent-filter#android.intent.category.DEFAULT+edu.hastings.HastingsCollegeChemistry.GASLAWS.CHARLES_LAW
+ADDED from AndroidManifest.xml:177:13
+action#edu.hastings.HastingsCollegeChemistry.GASLAWS.CHARLES_LAW
+ADDED from AndroidManifest.xml:178:17
+	android:name
+		ADDED from AndroidManifest.xml:178:25
+activity#edu.hastings.HastingsCollegeChemistry.GenChemFunctions.GasLaws.Guy_Lussacs_Law
+ADDED from AndroidManifest.xml:184:9
+	android:label
+		ADDED from AndroidManifest.xml:185:19
+	android:name
+		ADDED from AndroidManifest.xml:184:19
+intent-filter#android.intent.category.DEFAULT+edu.hastings.HastingsCollegeChemistry.GASLAWS.GUY_LUSSACS_LAW
+ADDED from AndroidManifest.xml:186:13
+action#edu.hastings.HastingsCollegeChemistry.GASLAWS.GUY_LUSSACS_LAW
+ADDED from AndroidManifest.xml:187:17
+	android:name
+		ADDED from AndroidManifest.xml:187:25
+activity#edu.hastings.HastingsCollegeChemistry.GenChemFunctions.GasLaws.Avogadros_Law
+ADDED from AndroidManifest.xml:193:9
+	android:label
+		ADDED from AndroidManifest.xml:194:19
+	android:name
+		ADDED from AndroidManifest.xml:193:19
+intent-filter#android.intent.category.DEFAULT+edu.hastings.HastingsCollegeChemistry.GASLAWS.AVOGADROS_LAW
+ADDED from AndroidManifest.xml:195:13
+action#edu.hastings.HastingsCollegeChemistry.GASLAWS.AVOGADROS_LAW
+ADDED from AndroidManifest.xml:196:17
+	android:name
+		ADDED from AndroidManifest.xml:196:25
+activity#edu.hastings.HastingsCollegeChemistry.GenChemFunctions.GasLaws.Combined_Gas_Law
+ADDED from AndroidManifest.xml:202:9
+	android:label
+		ADDED from AndroidManifest.xml:203:19
+	android:name
+		ADDED from AndroidManifest.xml:202:19
+intent-filter#android.intent.category.DEFAULT+edu.hastings.HastingsCollegeChemistry.GASLAWS.COMBINED_GAS_LAW
+ADDED from AndroidManifest.xml:204:13
+action#edu.hastings.HastingsCollegeChemistry.GASLAWS.COMBINED_GAS_LAW
+ADDED from AndroidManifest.xml:205:17
+	android:name
+		ADDED from AndroidManifest.xml:205:25
+activity#edu.hastings.HastingsCollegeChemistry.GenChemFunctions.PercentYield
+ADDED from AndroidManifest.xml:211:9
+	android:label
+		ADDED from AndroidManifest.xml:212:19
+	android:name
+		ADDED from AndroidManifest.xml:211:19
+intent-filter#android.intent.category.DEFAULT+edu.hastings.HastingsCollegeChemistry.PERCENTYIELD
+ADDED from AndroidManifest.xml:213:13
+action#edu.hastings.HastingsCollegeChemistry.PERCENTYIELD
+ADDED from AndroidManifest.xml:214:17
+	android:name
+		ADDED from AndroidManifest.xml:214:25
+activity#edu.hastings.HastingsCollegeChemistry.Converters.Converter_Pressure
+ADDED from AndroidManifest.xml:220:9
+	android:label
+		ADDED from AndroidManifest.xml:221:19
+	android:name
+		ADDED from AndroidManifest.xml:220:19
+intent-filter#android.intent.category.DEFAULT+edu.hastings.HastingsCollegeChemistry.CONVERTER_PRESSURE
+ADDED from AndroidManifest.xml:222:13
+action#edu.hastings.HastingsCollegeChemistry.CONVERTER_PRESSURE
+ADDED from AndroidManifest.xml:223:17
+	android:name
+		ADDED from AndroidManifest.xml:223:25
+activity#edu.hastings.HastingsCollegeChemistry.GenChemFunctions.Particles
+ADDED from AndroidManifest.xml:229:9
+	android:label
+		ADDED from AndroidManifest.xml:230:19
+	android:name
+		ADDED from AndroidManifest.xml:229:19
+intent-filter#android.intent.category.DEFAULT+edu.hastings.HastingsCollegeChemistry.PARTICLES
+ADDED from AndroidManifest.xml:231:13
+action#edu.hastings.HastingsCollegeChemistry.PARTICLES
+ADDED from AndroidManifest.xml:232:17
+	android:name
+		ADDED from AndroidManifest.xml:232:25
+activity#edu.hastings.HastingsCollegeChemistry.GenChemFunctions.Acids
+ADDED from AndroidManifest.xml:238:9
+	android:label
+		ADDED from AndroidManifest.xml:239:19
+	android:name
+		ADDED from AndroidManifest.xml:238:19
+intent-filter#android.intent.category.DEFAULT+edu.hastings.HastingsCollegeChemistry.ACIDS
+ADDED from AndroidManifest.xml:240:13
+action#edu.hastings.HastingsCollegeChemistry.ACIDS
+ADDED from AndroidManifest.xml:241:17
+	android:name
+		ADDED from AndroidManifest.xml:241:25
+activity#edu.hastings.HastingsCollegeChemistry.GenChemFunctions.Bases
+ADDED from AndroidManifest.xml:247:9
+	android:label
+		ADDED from AndroidManifest.xml:248:19
+	android:name
+		ADDED from AndroidManifest.xml:247:19
+intent-filter#android.intent.category.DEFAULT+edu.hastings.HastingsCollegeChemistry.BASES
+ADDED from AndroidManifest.xml:249:13
+action#edu.hastings.HastingsCollegeChemistry.BASES
+ADDED from AndroidManifest.xml:250:17
+	android:name
+		ADDED from AndroidManifest.xml:250:25

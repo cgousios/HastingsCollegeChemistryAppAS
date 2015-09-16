@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:paddingTop="30sp"
+            >
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/FunctionBox"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="40sp"
+            >
+        <TextView
+                android:layout_width="200sp"
+                android:layout_height="match_parent"
+                android:id="@+id/txtalphaD"
+                android:textSize="20sp"/>
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rotation"
+                android:textColor="#ffffffff"
+                android:inputType="numberDecimal"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="40sp"
+            >
+        <TextView
+                android:layout_width="200sp"
+                android:layout_height="match_parent"
+                android:text="α (degrees)"
+                android:textSize="20sp"/>
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:inputType="numberDecimal"
+                android:id="@+id/angle"
+                android:textColor="#ffffffff"
+                />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="40sp"
+            >
+        <TextView
+                android:layout_width="200sp"
+                android:layout_height="match_parent"
+                android:id="@+id/txtCM"
+                android:textSize="20sp"/>
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:inputType="numberDecimal"
+                android:id="@+id/MassConcentration"
+                android:textColor="#ffffffff"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="40sp"
+            >
+        <TextView
+                android:layout_width="200sp"
+                android:layout_height="match_parent"
+                android:text="l (dm)"
+                android:textSize="20sp"/>
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:inputType="numberDecimal"
+                android:id="@+id/length"
+                android:textColor="#ffffffff"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="40sp"
+            android:gravity="center"
+            >
+        <Button
+                android:layout_width="175sp"
+                android:layout_height="60sp"
+                android:text="@string/strCompute"
+                android:textSize="30sp"
+                android:id="@+id/btnCompute"
+                />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout><!-- From: file:/C:/Users/Christopher/Documents/Android%20Studio%20Apps/HastingsCollegeChemistryAppAS/app/src/main/res/layout/specific_rotation.xml -->

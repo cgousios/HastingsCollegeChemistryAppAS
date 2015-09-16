@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Convert From:"
+            android:textSize="25sp"
+            android:paddingTop="15sp"
+            android:paddingBottom="10sp"/>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            >
+        <EditText
+                android:layout_width="200sp"
+                android:layout_height="match_parent"
+                android:id="@+id/convert_from"
+                android:textSize="20sp"
+                android:inputType="numberDecimal"
+                />
+        <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/convert_FromSpinner"
+                android:paddingLeft="20sp"
+                android:paddingRight="0sp">
+        </Spinner>
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Convert To:"
+            android:textSize="25sp"
+            android:paddingTop="15sp"
+            android:paddingBottom="10sp"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10sp">
+        <TextView
+                android:layout_width="200sp"
+                android:layout_height="match_parent"
+                android:id="@+id/convert_convertedNum"
+                android:textSize="20sp"
+                android:inputType="numberDecimal"
+                />
+        <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/convert_ToSpinner"
+                android:paddingLeft="20sp"
+                android:paddingRight="0sp">
+        </Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20sp"
+            android:gravity="center"
+            >
+        <Button
+                android:layout_width="175sp"
+                android:layout_height="60sp"
+                android:text="@string/strCompute"
+                android:textSize="30sp"
+                android:id="@+id/btnCompute"
+                />
+    </LinearLayout>
+
+</LinearLayout>

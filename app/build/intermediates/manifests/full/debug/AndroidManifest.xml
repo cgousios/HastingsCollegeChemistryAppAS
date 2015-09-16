@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.hastings.HastingsCollegeChemistry"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name" >
+        //Splash Screen
+        <activity
+            android:name="edu.hastings.HastingsCollegeChemistry.MyActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SPLASH" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        // Main Menu List
+        <activity
+            android:name="edu.hastings.HastingsCollegeChemistry.Menus.MainMenuList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="edu.hastings.HastingsCollegeChemistry.MAINMENULIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // General Chem menu list
+        <activity
+            android:name="edu.hastings.HastingsCollegeChemistry.Menus.GenChemMenuList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="edu.hastings.HastingsCollegeChemistry.GENCHEMMENULIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // Main - General Chem - Stoichiometry
+        <activity
+            android:name="edu.hastings.HastingsCollegeChemistry.GenChemFunctions.Stoichiometry"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="edu.hastings.HastingsCollegeChemistry.STOICHIOMETRY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // Main - General Chem - Density
+        <activity
+            android:name="edu.hastings.HastingsCollegeChemistry.GenChemFunctions.Density"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="edu.hastings.HastingsCollegeChemistry.DENSITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // Main - Organic Chem
+        <activity
+            android:name="edu.hastings.HastingsCollegeChemistry.Menus.OrganicChemMenuList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="edu.hastings.HastingsCollegeChemistry.ORGANICCHEMMENULIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // Main - Organic Chem - Specific Rotation
+        <activity
+            android:name="edu.hastings.HastingsCollegeChemistry.OrganicChemFunctions.SpecificRotation"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="edu.hastings.HastingsCollegeChemistry.SPECIFICROTATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // Main - Bio Chem
+        <activity
+            android:name="edu.hastings.HastingsCollegeChemistry.Menus.BioChemMenuList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="edu.hastings.HastingsCollegeChemistry.BIOCHEMMENULIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // Main - Biochem - Henderson Hasselbalch
+        <activity
+            android:name="edu.hastings.HastingsCollegeChemistry.BioChemFunctions.HendersonHasselbalch"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="edu.hastings.HastingsCollegeChemistry.HENDERSONHASSELBALCH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // Main - GenChem - Dilution of Solution
+        <activity
+            android:name="edu.hastings.HastingsCollegeChemistry.GenChemFunctions.DilutionOfSolution"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="edu.hastings.HastingsCollegeChemistry.DILUTIONOFSOLUTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // Main - Converter
+        <activity
+            android:name="edu.hastings.HastingsCollegeChemistry.Menus.ConverterMenuList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="edu.hastings.HastingsCollegeChemistry.CONVERTERMENULIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // Main - Converter - Volume
+        <activity
+            android:name="edu.hastings.HastingsCollegeChemistry.Converters.Converter_Volume"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="edu.hastings.HastingsCollegeChemistry.CONVERTER_VOLUME" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // Main - Converter - Temperature
+        <activity
+            android:name="edu.hastings.HastingsCollegeChemistry.Converters.Converter_Temperature"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="edu.hastings.HastingsCollegeChemistry.CONVERTER_TEMPERATURE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // Main - GenChem - Molarity
+        <activity
+            android:name="edu.hastings.HastingsCollegeChemistry.GenChemFunctions.Molarity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="edu.hastings.HastingsCollegeChemistry.MOLARITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // Main - GenChem - Ideal Gas
+        <activity
+            android:name="edu.hastings.HastingsCollegeChemistry.GenChemFunctions.Ideal_Gas"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="edu.hastings.HastingsCollegeChemistry.IDEAL_GAS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // Main - GenChem - pH Scale
+        <activity
+            android:name="edu.hastings.HastingsCollegeChemistry.GenChemFunctions.pH_Scale"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="edu.hastings.HastingsCollegeChemistry.PH_SCALRE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // Main - GenChem - GasLaws
+        <activity
+            android:name="edu.hastings.HastingsCollegeChemistry.GenChemFunctions.GasLaws.GasLawsMenuList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="edu.hastings.HastingsCollegeChemistry.GASLAWS.GASLAWSMENULIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // Main - GenChem - GasLaws - Boyle
+        <activity
+            android:name="edu.hastings.HastingsCollegeChemistry.GenChemFunctions.GasLaws.Boyles_Law"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="edu.hastings.HastingsCollegeChemistry.GASLAWS.BOYLES_LAW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // Main - GenChem - GasLaws - Charles
+        <activity
+            android:name="edu.hastings.HastingsCollegeChemistry.GenChemFunctions.GasLaws.Charles_Law"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="edu.hastings.HastingsCollegeChemistry.GASLAWS.CHARLES_LAW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // Main - GenChem - GasLaws - Guy-Lussac
+        <activity
+            android:name="edu.hastings.HastingsCollegeChemistry.GenChemFunctions.GasLaws.Guy_Lussacs_Law"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="edu.hastings.HastingsCollegeChemistry.GASLAWS.GUY_LUSSACS_LAW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // Main - GenChem - GasLaws - Avogadro
+        <activity
+            android:name="edu.hastings.HastingsCollegeChemistry.GenChemFunctions.GasLaws.Avogadros_Law"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="edu.hastings.HastingsCollegeChemistry.GASLAWS.AVOGADROS_LAW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // Main - GenChem - GasLaws - Combined
+        <activity
+            android:name="edu.hastings.HastingsCollegeChemistry.GenChemFunctions.GasLaws.Combined_Gas_Law"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="edu.hastings.HastingsCollegeChemistry.GASLAWS.COMBINED_GAS_LAW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // Main - GenChem - Percent Yield
+        <activity
+            android:name="edu.hastings.HastingsCollegeChemistry.GenChemFunctions.PercentYield"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="edu.hastings.HastingsCollegeChemistry.PERCENTYIELD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // Main - Converters - Pressure
+        <activity
+            android:name="edu.hastings.HastingsCollegeChemistry.Converters.Converter_Pressure"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="edu.hastings.HastingsCollegeChemistry.CONVERTER_PRESSURE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // Main - GenChem - Particles
+        <activity
+            android:name="edu.hastings.HastingsCollegeChemistry.GenChemFunctions.Particles"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="edu.hastings.HastingsCollegeChemistry.PARTICLES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // Main - GenChem - Acids
+        <activity
+            android:name="edu.hastings.HastingsCollegeChemistry.GenChemFunctions.Acids"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="edu.hastings.HastingsCollegeChemistry.ACIDS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        // Main - GenChem - Bases
+        <activity
+            android:name="edu.hastings.HastingsCollegeChemistry.GenChemFunctions.Bases"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="edu.hastings.HastingsCollegeChemistry.BASES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

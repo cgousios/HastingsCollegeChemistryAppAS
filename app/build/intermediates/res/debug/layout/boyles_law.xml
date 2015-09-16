@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30sp"
+            >
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/FunctionBox"/>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="40sp"
+                >
+            <TextView
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:id="@+id/lblPressure1"
+                    android:textSize="20sp"/>
+            <EditText
+                    android:layout_width="160sp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/txtPressure1"
+                    android:textColor="#ffffffff"
+                    android:inputType="numberDecimal"/>
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:text="atm"
+                    android:textSize="20sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="40sp"
+                >
+            <TextView
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:id="@+id/lblVolume1"
+                    android:textSize="20sp"/>
+            <EditText
+                    android:layout_width="160sp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/txtVolume1"
+                    android:textColor="#ffffffff"
+                    android:inputType="numberDecimal"/>
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:text="L"
+                    android:textSize="20sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="40sp"
+                >
+            <TextView
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:id="@+id/lblPressure2"
+                    android:textSize="20sp"/>
+            <EditText
+                    android:layout_width="160sp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/txtPressure2"
+                    android:textColor="#ffffffff"
+                    android:inputType="numberDecimal"/>
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:text="atm"
+                    android:textSize="20sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="40sp"
+                >
+            <TextView
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:id="@+id/lblVolume2"
+                    android:textSize="20sp"/>
+            <EditText
+                    android:layout_width="160sp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/txtVolume2"
+                    android:textColor="#ffffffff"
+                    android:inputType="numberDecimal"/>
+            <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:text="L"
+                    android:textSize="20sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="40sp"
+                android:gravity="center"
+                >
+            <Button
+                    android:layout_width="175sp"
+                    android:layout_height="60sp"
+                    android:text="@string/strCompute"
+                    android:textSize="30sp"
+                    android:id="@+id/btnCompute"
+                    />
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/Christopher/Documents/Android%20Studio%20Apps/HastingsCollegeChemistryAppAS/app/src/main/res/layout/boyles_law.xml -->

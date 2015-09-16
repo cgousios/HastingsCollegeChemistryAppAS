@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Christopher/Documents/Android%20Studio%20Apps/HastingsCollegeChemistryAppAS/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="PressureConverterSpinner">
+        <item>atm</item>
+        <item>mmHG</item>
+        <item>bar</item>
+        <item>Pa</item>
+    </string-array>
+    <string-array name="TemperatureConverterSpinner">
+        <item>F</item>
+        <item>C</item>
+        <item>K</item>
+    </string-array>
+    <string-array name="VolumeConverterSpinner">
+    <item>µL</item>
+    <item>mL</item>
+    <item>L</item>
+    </string-array>
+    <string name="app_name">Hastings College Chemistry</string>
+    <string name="strAminus"><![CDATA[A<small><sup>-</sup></small>]]></string>
+    <string name="strAvogadrosCon1"><![CDATA[n<sub><small>1</small></sub> = (V<sub><small>1</small></sub> x n<sub><small>2</small></sub>) / V<sub><small>2</small></sub>]]></string>
+    <string name="strAvogadrosCon2"><![CDATA[n<sub><small>2</small></sub> = (V<sub><small>2</small></sub> x n<sub><small>1</small></sub>) / V<sub><small>1</small></sub>]]></string>
+    <string name="strAvogadrosFunction"><![CDATA[V<sub><small>1</small></sub> / n<sub><small>1</small></sub> = V<sub><small>2</small></sub> / n<sub><small>2</small></sub>]]></string>
+    <string name="strAvogadrosV1"><![CDATA[V<sub><small>2</small></sub> = (V<sub><small>1</small></sub> / n<sub><small>1</small></sub>) x n<sub><small>2</small></sub>]]></string>
+    <string name="strAvogadrosV2"><![CDATA[V<sub><small>1</small></sub> = (V<sub><small>2</small></sub> / n<sub><small>2</small></sub>) x n<sub><small>1</small></sub>]]></string>
+    <string name="strB"><![CDATA[B]]></string>
+    <string name="strBHplus"><![CDATA[BH<small><sup>+</sup></small>]]></string>
+    <string name="strBoylesFunction"><![CDATA[P<sub><small>1</small></sub>V<sub><small>1</small></sub> = P<sub><small>2</small></sub>V<sub><small>2</small></sub>]]></string>
+    <string name="strBoylesP1"><![CDATA[P<sub><small>1</small></sub> = P<sub><small>2</small></sub>V<sub><small>2</small></sub>/V<sub><small>1</small></sub>]]></string>
+    <string name="strBoylesP2"><![CDATA[P<sub><small>2</small></sub> = P<sub><small>1</small></sub>V<sub><small>1</small></sub>/V<sub><small>2</small></sub>]]></string>
+    <string name="strBoylesV1"><![CDATA[V<sub><small>1</small></sub> = P<sub><small>2</small></sub>V<sub><small>2</small></sub>/P<sub><small>1</small></sub>]]></string>
+    <string name="strBoylesV2"><![CDATA[V<sub><small>2</small></sub> = P<sub><small>1</small></sub>V<sub><small>1</small></sub>/P<sub><small>2</small></sub>]]></string>
+    <string name="strCharlesFunction"><![CDATA[V<sub><small>1</small></sub> / T<sub><small>1</small></sub> = V<sub><small>2</small></sub> / T<sub><small>2</small></sub>]]></string>
+    <string name="strCharlesT1"><![CDATA[T<sub><small>1</small></sub> = (V<sub><small>1</small></sub> x T<sub><small>2</small></sub>) / V<sub><small>2</small></sub>]]></string>
+    <string name="strCharlesT2"><![CDATA[T<sub><small>2</small></sub> = (V<sub><small>2</small></sub> x T<sub><small>1</small></sub>) / V<sub><small>1</small></sub>]]></string>
+    <string name="strCharlesV1"><![CDATA[V<sub><small>2</small></sub> = (V<sub><small>1</small></sub> / T<sub><small>1</small></sub>) x T<sub><small>2</small></sub>]]></string>
+    <string name="strCharlesV2"><![CDATA[V<sub><small>1</small></sub> = (V<sub><small>2</small></sub> / T<sub><small>2</small></sub>) x T<sub><small>1</small></sub>]]></string>
+    <string name="strCombinedGasFunction"><![CDATA[P<sub><small>1</small></sub>V<sub><small>1</small></sub>/T<sub><small>1</small></sub> = P<sub><small>2</small></sub>V<sub><small>2</small></sub>/T<sub><small>2</small></sub>]]></string>
+    <string name="strCombinedP1"><![CDATA[P<sub><small>1</small></sub> = P<sub><small>2</small></sub>V<sub><small>2</small></sub>T<sub><small>1</small></sub> / T<sub><small>2</small></sub>V<sub><small>1</small></sub>]]></string>
+    <string name="strCombinedP2"><![CDATA[P<sub><small>2</small></sub> = P<sub><small>1</small></sub>V<sub><small></small></sub>T<sub><small>2</small></sub> / T<sub><small>1</small></sub>V<sub><small>2</small></sub>]]></string>
+    <string name="strCombinedT1"><![CDATA[T<sub><small>1</small></sub> = P<sub><small>1</small></sub>V<sub><small>1</small></sub>T<sub><small>2</small></sub> / P<sub><small>2</small></sub>V<sub><small>2</small></sub> ]]></string>
+    <string name="strCombinedT2"><![CDATA[T<sub><small>2</small></sub> = P<sub><small>2</small></sub>V<sub><small>2</small></sub>T<sub><small>1</small></sub> / P<sub><small>1</small></sub>V<sub><small>1</small></sub> ]]></string>
+    <string name="strCombinedV1"><![CDATA[V<sub><small>1</small></sub> = P<sub><small>2</small></sub>V<sub><small>2</small></sub>T<sub><small>1</small></sub> / T<sub><small>2</small></sub>P<sub><small>1</small></sub>]]></string>
+    <string name="strCombinedV2"><![CDATA[V<sub><small>2</small></sub> = P<sub><small>1</small></sub>V<sub><small>1</small></sub>T<sub><small>2</small></sub> / T<sub><small>1</small></sub>P<sub><small>2</small></sub>]]></string>
+    <string name="strCompute" size="40sp">Compute</string>
+    <string name="strGuyLussacsFunction"><![CDATA[P<sub><small>1</small></sub> / T<sub><small>1</small></sub> = P<sub><small>2</small></sub> / T<sub><small>2</small></sub>]]></string>
+    <string name="strGuyLussacsP1"><![CDATA[P<sub><small>2</small></sub> = (P<sub><small>1</small></sub> / T<sub><small>1</small></sub>) x T<sub><small>2</small></sub>]]></string>
+    <string name="strGuyLussacsP2"><![CDATA[P<sub><small>1</small></sub> = (PV<sub><small>2</small></sub> / T<sub><small>2</small></sub>) x T<sub><small>1</small></sub>]]></string>
+    <string name="strGuyLussacsT1"><![CDATA[T<sub><small>1</small></sub> = (P<sub><small>1</small></sub> x T<sub><small>2</small></sub>) / P<sub><small>2</small></sub>]]></string>
+    <string name="strGuyLussacsT2"><![CDATA[T<sub><small>2</small></sub> = (P<sub><small>2</small></sub> x T<sub><small>1</small></sub>) / P<sub><small>1</small></sub>]]></string>
+    <string name="strHA"><![CDATA[HA]]></string>
+    <string name="strHplus"><![CDATA[H<small><sup>+</sup></small>]]></string>
+    <string name="strKa"><![CDATA[K<small><sub>a</sub></small>]]></string>
+    <string name="strKb"><![CDATA[K<small><sub>b</sub></small>]]></string>
+    <string name="strM1"><![CDATA[M<sub><small>1</small></sub> = M<sub><small>2</small></sub>V<sub><small>2</small></sub> / V<sub><small>1</small></sub>]]></string>
+    <string name="strM2"><![CDATA[M<sub><small>2</small></sub> = M<sub><small>1</small></sub>V<sub><small>1</small></sub> /V<sub><small>2</small></sub>]]></string>
+    <string name="strMV"><![CDATA[M<sub><small>1</small></sub>V<sub><small>1</small></sub> = M<sub><small>2</small></sub>V<sub><small>2</small></sub>]]></string>
+    <string name="strOHminus"><![CDATA[OH<small><sup>-</sup></small>]]></string>
+    <string name="strV1"><![CDATA[V<sub><small>1</small></sub> = M<sub><small>2</small></sub>V<sub><small>2</small></sub> / M<sub><small>1</small></sub>]]></string>
+    <string name="strV2"><![CDATA[V<sub><small>2</small></sub> = M<sub><small>1</small></sub>V<sub><small>1</small></sub> / M<sub><small>2</small></sub>]]></string>
+</resources>
